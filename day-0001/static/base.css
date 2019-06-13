@@ -1,0 +1,68 @@
+.header{
+  height:50px;
+  line-height:50px;
+
+  background-color:black;
+  color:white;
+  font-weight:bold;
+}
+
+.header-inside{
+  width:95%;
+  margin:0 auto;
+  display:flex;
+}
+
+.header-insides{
+  width:calc(100%/3);
+  text-align:center;
+}
+.header-insides:hover{
+  background-color:white;
+  color:black;
+}
+
+.header-inside1,.header-inside2,.header-inside3{
+  position:relative;
+}
+.header-inside1 a,.header-inside2 a,.header-inside3 a{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.footer{
+  height:50px;
+  background-color:black;
+}
+
+.footer-Facebook a{background-image:url(f_01.png);}
+.footer-Twitter  a{background-image:url(f_02.png);}
+.footer-Youtube  a{background-image:url(f_03.png);}
+.footer-Linkedin a{background-image:url(f_04.png);}
+.footer-homepage a{background-image:url(f_05.png);}
+
+.footer-sns{
+  display:flex;
+  float:right;
+}
+
+.f-icon{
+  width:30px;
+  height:50px;
+}
+
+.f-icon a{
+  display:inline-block;
+  width:100%;
+  height:100%;
+
+  background-size:70%;
+  background-position:50% 70%;
+  background-repeat: no-repeat;
+}
+.f-icon a:hover{
+  background-size:90%;  
+}

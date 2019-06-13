@@ -1,0 +1,149 @@
+
+.main{
+}
+.main-inside{
+  height:500px;
+  width:500px;
+  margin:0 auto;
+}
+.main-box,.main-center{
+  text-align:center;
+}
+.main-inside,.main-box,.main-center{
+  border:2px solid white;
+  box-sizing: border-box;
+}
+
+.main-top,.main-bottom,.main-middle,.main-middle{
+  display:flex;
+}
+.main-middle{
+  display:flex;
+}
+
+.main-tops,.main-bottoms{
+  width:calc(100%/5);
+}
+.main-middle-left,.main-middle-right{
+  width:calc(100%/5);
+}
+.main-middle-middle{
+  width:calc(100%*3/5);
+}
+
+.main-top,.main-bottom{
+  height:calc(100%/5);
+}
+.main-middle{
+  height:calc(100%*3/5);
+}
+.main-middle-lefts,.main-middle-rights{
+  height:calc(100%/3);
+}
+.main-center{
+  height:100%;
+}
+
+.main-p01,.main-p02,.main-p03,.main-p04,
+.main-p05,.main-p06,.main-p07,.main-p08,
+.main-p09,.main-p10,.main-p11,.main-p12,
+.main-p13,.main-p14,.main-p15,.main-p16,
+.main-p17{
+  position:relative;
+}
+.main-p01 a,.main-p02 a,.main-p03 a,.main-p04 a,
+.main-p05 a,.main-p06 a,.main-p07 a,.main-p08 a,
+.main-p09 a,.main-p10 a,.main-p11 a,.main-p12 a,
+.main-p13 a,.main-p14 a,.main-p15 a,.main-p16 a,
+.main-p17 a{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+
+  background-size:60%;
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+}
+
+.main-p01 a:hover,.main-p02 a:hover,
+.main-p03 a:hover,.main-p04 a:hover,
+.main-p05 a:hover,.main-p06 a:hover,
+.main-p07 a:hover,.main-p08 a:hover,
+.main-p09 a:hover,.main-p10 a:hover,
+.main-p11 a:hover,.main-p12 a:hover,
+.main-p13 a:hover,.main-p14 a:hover,
+.main-p15 a:hover,.main-p16 a:hover,
+.main-p17 a:hover{
+  background-size:70%;
+  background-position:50% 80%;
+
+}
+
+.main-p01-w,.main-p02-w,.main-p03-w,.main-p04-w,
+.main-p05-w,.main-p06-w,.main-p07-w,.main-p08-w,
+.main-p09-w,.main-p10-w,.main-p11-w,.main-p12-w,
+.main-p13-w,.main-p14-w,.main-p15-w,.main-p16-w,
+.main-p17-w{
+  visibility:hidden;
+  color:white;
+  background-color:black;
+  font-weight:bold;
+}
+
+.main-p01 a:hover + .main-p01-w,
+.main-p02 a:hover + .main-p02-w,
+.main-p03 a:hover + .main-p03-w,
+.main-p04 a:hover + .main-p04-w,
+.main-p05 a:hover + .main-p05-w,
+.main-p06 a:hover + .main-p06-w,
+.main-p07 a:hover + .main-p07-w,
+.main-p08 a:hover + .main-p08-w,
+.main-p09 a:hover + .main-p09-w,
+.main-p10 a:hover + .main-p10-w,
+.main-p11 a:hover + .main-p11-w,
+.main-p12 a:hover + .main-p12-w,
+.main-p13 a:hover + .main-p13-w,
+.main-p14 a:hover + .main-p14-w,
+.main-p15 a:hover + .main-p15-w,
+.main-p16 a:hover + .main-p16-w,
+.main-p17 a:hover + .main-p17-w{
+  visibility:visible;
+}
+
+.main-p01 a{background-image:url(01_01.png);}
+.main-p02 a{background-image:url(02_01.png);}
+.main-p03 a{background-image:url(03_01.png);}
+.main-p04 a{background-image:url(04_01.png);}
+.main-p05 a{background-image:url(05_01.png);}
+.main-p06 a{background-image:url(06_01.png);}
+.main-p07 a{background-image:url(07_01.png);}
+.main-p08 a{background-image:url(08_01.png);}
+.main-p09 a{background-image:url(09_01.png);}
+.main-p10 a{background-image:url(10_01.png);}
+.main-p11 a{background-image:url(11_01.png);}
+.main-p12 a{background-image:url(12_01.png);}
+.main-p13 a{background-image:url(13_01.png);}
+.main-p14 a{background-image:url(14_01.png);}
+.main-p15 a{background-image:url(15_01.png);}
+.main-p16 a{background-image:url(16_01.png);}
+.main-p17 a{background-image:url(17_01.png);}
+
+.main-p01 a:hover{background-image:url(01_02.png);}
+.main-p02 a:hover{background-image:url(02_02.png);}
+.main-p03 a:hover{background-image:url(03_02.png);}
+.main-p04 a:hover{background-image:url(04_02.png);}
+.main-p05 a:hover{background-image:url(05_02.png);}
+.main-p06 a:hover{background-image:url(06_02.png);}
+.main-p07 a:hover{background-image:url(07_02.png);}
+.main-p08 a:hover{background-image:url(08_02.png);}
+.main-p09 a:hover{background-image:url(09_02.png);}
+.main-p10 a:hover{background-image:url(10_02.png);}
+.main-p11 a:hover{background-image:url(11_02.png);}
+.main-p12 a:hover{background-image:url(12_02.png);}
+.main-p13 a:hover{background-image:url(13_02.png);}
+.main-p14 a:hover{background-image:url(14_02.png);}
+.main-p15 a:hover{background-image:url(15_02.png);}
+.main-p16 a:hover{background-image:url(16_02.png);}
+.main-p17 a:hover{background-image:url(17_02.png);}
