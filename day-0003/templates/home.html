@@ -1,0 +1,54 @@
+{% extends "./base.html" %}
+
+{% block include %}
+
+<title>Caclulator</title>
+<link rel="stylesheet" href="static/home.css">
+
+{% endblock %}
+
+{% block main %}
+
+<form method="post">
+{{ form.hidden_tag() }}
+
+<div class="main">
+  <div class="main-inside">
+    <div class="main-top">
+      <div class="main-tops main-box main-p01">{{ form.submit(class="main-calc") }}<div class="main-p01-w">CALC</div></div>
+      <div class="main-tops main-box main-p02"><a href="https://twitter.com/n_baaaaan"></a><div class="main-p02-w">Twitter</div></div>
+      <div class="main-tops main-box main-p03"><a href="https://www.facebook.com/naohiko.ban.3"></a><div class="main-p03-w">Facebook</div></div>
+      <div class="main-tops main-box main-p04"><a href="https://www.amazon.co.jp"></a><div class="main-p04-w">Amazon</div></div>
+      <div class="main-tops main-box main-p05"><a href="https://www.bitcoin.com/"></a><div class="main-p05-w">Bitcoint</div></div>
+    </div>
+    <div class="main-middle">
+      <div class="main-middles main-middle-left">
+        <div class="main-middle-lefts main-box main-p06"><a href="https://www.jal.co.jp/"></a><div class="main-p06-w">JAL</div></div>
+        <div class="main-middle-lefts main-box main-p07"><a href="https://www.google.com/maps"></a><div class="main-p07-w">GMap</div></div>
+        <div class="main-middle-lefts main-box main-p08"><a href="https://tabelog.com/"></a><div class="main-p08-w">Tabelog</div></div>
+      </div>
+      <div class="main-middles main-middle-middle">
+        <div class="main-center main-p09">{{ form.feedback(class="main-feedback") }}</div>
+      </div>
+      <div class="main-middles main-middle-right">
+        <div class="main-middle-rights main-box main-p10"><a href="https://en.wikipedia.org/wiki/Japan"></a><div class="main-p10-w">Japan</div></div>
+        <div class="main-middle-rights main-box main-p11"><a href="https://ja.wikipedia.org/wiki/%E5%BA%83%E5%B3%B6%E5%B8%82"></a><div class="main-p11-w">Hiroshima</div></div>
+        <div class="main-middle-rights main-box main-p12"><a href="https://www.linkedin.com/in/naohiko-ban-741255129/"></a><div class="main-p12-w">Linkedin</div></div>
+      </div>
+    </div>
+    <div class="main-bottom">
+      <div class="main-bottoms main-box main-p13"><a href="https://www.meetup.com/ja-JP/"></a><div class="main-p13-w">Meetup</div></div>
+      <div class="main-bottoms main-box main-p14"><a href="http://posdoc.info/2019/05/27/ddme2016/"></a><div class="main-p14-w">Master</div></div>
+      <div class="main-bottoms main-box main-p15"><a href="http://posdoc.info/2019/05/28/ddde2019/"></a><div class="main-p15-w">Docter</div></div>
+      <div class="main-bottoms main-box main-p16"><a href="https://www.japannetbank.co.jp/"></a><div class="main-p16-w">JNB</div></div>
+      <div class="main-bottoms main-box main-p17"><a href="https://www.scotiabank.com/ca/en/personal.html"></a><div class="main-p17-w">ScottiB</div></div>
+    </div>
+  </div>
+</div>
+
+
+
+</form>
+
+
+{% endblock %}
